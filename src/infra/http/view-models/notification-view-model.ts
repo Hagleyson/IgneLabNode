@@ -5,7 +5,7 @@ export class NotificationViewModel {
     return {
       id: notification.id,
       content: notification.content,
-      category: notification.content,
+      category: notification.category,
       recipient_id: notification.recipientId,
     };
   }

@@ -21,7 +21,6 @@ export class CountRecipientNotification {
     const count = await this.notificationRepository.countManyByRecipientId(
       recipientId,
     );
-    console.log(count);
 
     return {
       count,
